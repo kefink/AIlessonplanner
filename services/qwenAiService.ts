@@ -6,9 +6,19 @@
 import axios, { AxiosResponse } from 'axios';
 
 // OpenRouter API configuration for Qwen
-const QWEN_API_BASE_URL = process.env.QWEN_API_BASE_URL || 'https://openrouter.ai/api/v1';
-const QWEN_API_KEY = process.env.QWEN_API_KEY || process.env.API_KEY;
-const QWEN_MODEL = process.env.QWEN_MODEL || 'qwen/qwen3-235b-a22b:free';
+// Use import.meta.env for Vite/React environment variables
+const QWEN_API_BASE_URL =
+  import.meta.env.REACT_APP_QWEN_API_BASE_URL ||
+  process.env.REACT_APP_QWEN_API_BASE_URL ||
+  'https://openrouter.ai/api/v1';
+const QWEN_API_KEY =
+  import.meta.env.REACT_APP_QWEN_API_KEY ||
+  process.env.REACT_APP_QWEN_API_KEY ||
+  process.env.QWEN_API_KEY;
+const QWEN_MODEL =
+  import.meta.env.REACT_APP_QWEN_MODEL ||
+  process.env.REACT_APP_QWEN_MODEL ||
+  'qwen/qwen3-235b-a22b:free';
 
 // Fallback models for when the main model times out
 const FALLBACK_MODELS = [
