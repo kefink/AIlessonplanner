@@ -6,19 +6,38 @@
 import axios, { AxiosResponse } from 'axios';
 
 // OpenRouter API configuration for Qwen
-// Use import.meta.env for Vite/React environment variables
-const QWEN_API_BASE_URL =
-  import.meta.env.REACT_APP_QWEN_API_BASE_URL ||
-  process.env.REACT_APP_QWEN_API_BASE_URL ||
-  'https://openrouter.ai/api/v1';
+// Function to get environment variables with fallbacks
+function getEnvVar(key: string, fallback?: string): string | undefined {
+  // Try multiple sources for environment variables
+  if (typeof window !== 'undefined') {
+    // Browser environment - check window object for injected variables
+    const windowEnv = (window as any).__ENV__;
+    if (windowEnv && windowEnv[key]) {
+      return windowEnv[key];
+    }
+  }
+
+  // Try import.meta.env (Vite)
+  if (typeof import.meta !== 'undefined' && import.meta.env) {
+    const viteEnv = import.meta.env[key];
+    if (viteEnv) return viteEnv;
+  }
+
+  // Try process.env (Node.js/build time)
+  if (typeof process !== 'undefined' && process.env) {
+    const nodeEnv = process.env[key];
+    if (nodeEnv) return nodeEnv;
+  }
+
+  return fallback;
+}
+
+const QWEN_API_BASE_URL = getEnvVar('REACT_APP_QWEN_API_BASE_URL', 'https://openrouter.ai/api/v1');
 const QWEN_API_KEY =
-  import.meta.env.REACT_APP_QWEN_API_KEY ||
-  process.env.REACT_APP_QWEN_API_KEY ||
-  process.env.QWEN_API_KEY;
-const QWEN_MODEL =
-  import.meta.env.REACT_APP_QWEN_MODEL ||
-  process.env.REACT_APP_QWEN_MODEL ||
-  'qwen/qwen3-235b-a22b:free';
+  getEnvVar('REACT_APP_QWEN_API_KEY') ||
+  getEnvVar('QWEN_API_KEY') ||
+  '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'; // Fallback API key
+const QWEN_MODEL = getEnvVar('REACT_APP_QWEN_MODEL', 'qwen/qwen3-235b-a22b:free');
 
 // Fallback models for when the main model times out
 const FALLBACK_MODELS = [
@@ -27,8 +46,21 @@ const FALLBACK_MODELS = [
   'meta-llama/llama-3.2-3b-instruct:free',
 ];
 
+// Debug logging for environment variables
+console.log('🔧 Qwen AI Service Configuration:');
+console.log('  API Base URL:', QWEN_API_BASE_URL);
+console.log('  Model:', QWEN_MODEL);
+console.log('  API Key present:', !!QWEN_API_KEY);
+console.log('  API Key length:', QWEN_API_KEY ? QWEN_API_KEY.length : 0);
+console.log(
+  '  API Key starts with:',
+  QWEN_API_KEY ? QWEN_API_KEY.substring(0, 10) + '...' : 'none'
+);
+
 if (!QWEN_API_KEY) {
-  console.warn('QWEN_API_KEY is not set in environment variables. AI features will not work.');
+  console.warn('❌ QWEN_API_KEY is not set in environment variables. AI features will not work.');
+} else {
+  console.log('✅ QWEN_API_KEY is configured and ready');
 }
 
 // OpenAI-compatible API interfaces for OpenRouter
