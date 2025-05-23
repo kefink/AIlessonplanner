@@ -162,12 +162,20 @@ export class DownloadService {
       console.log('SchemeOfWork:', !!schemeOfWork);
       console.log('LessonPlan:', !!lessonPlan);
 
+      // Test if docx library is available
+      console.log('📚 Testing docx library availability...');
+      console.log('Document:', typeof Document);
+      console.log('Packer:', typeof Packer);
+      console.log('saveAs:', typeof saveAs);
+
+      // Create a simple document first to test
+      console.log('📝 Creating simple test document...');
       const doc = new Document({
         sections: [
           {
             properties: {},
             children: [
-              // Title
+              // Simple title
               new Paragraph({
                 children: [
                   new TextRun({
@@ -176,340 +184,52 @@ export class DownloadService {
                     size: 32,
                   }),
                 ],
-                heading: HeadingLevel.TITLE,
                 alignment: AlignmentType.CENTER,
               }),
 
               new Paragraph({ text: '' }), // Empty line
 
-              // Scheme of Work Section
-              ...(schemeOfWork
-                ? [
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: 'SCHEME OF WORK ENTRY',
-                          bold: true,
-                          size: 28,
-                        }),
-                      ],
-                      heading: HeadingLevel.HEADING_1,
-                    }),
+              // Simple content
+              new Paragraph({
+                children: [
+                  new TextRun({
+                    text: 'This is a test document to verify Word generation is working.',
+                    size: 24,
+                  }),
+                ],
+              }),
 
-                    // Create table for scheme of work details
-                    new Table({
-                      width: {
-                        size: 100,
-                        type: WidthType.PERCENTAGE,
-                      },
-                      rows: [
-                        new TableRow({
-                          children: [
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'Week:', bold: true })],
-                                }),
-                              ],
-                              width: { size: 20, type: WidthType.PERCENTAGE },
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: schemeOfWork.wk })],
-                                }),
-                              ],
-                              width: { size: 30, type: WidthType.PERCENTAGE },
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'Lesson:', bold: true })],
-                                }),
-                              ],
-                              width: { size: 20, type: WidthType.PERCENTAGE },
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: schemeOfWork.lsn })],
-                                }),
-                              ],
-                              width: { size: 30, type: WidthType.PERCENTAGE },
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
+              new Paragraph({ text: '' }), // Empty line
 
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Strand: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.strand }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Sub-Strand: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.subStrand }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Specific Learning Outcomes: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.specificLearningOutcomes }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Key Inquiry Questions: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.keyInquiryQuestions }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Learning Experiences: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.learningExperiences }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Learning Resources: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.learningResources }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Assessment Methods: ', bold: true }),
-                        new TextRun({ text: schemeOfWork.assessmentMethods }),
-                      ],
-                    }),
-
-                    ...(schemeOfWork.refl
-                      ? [
-                          new Paragraph({
-                            children: [
-                              new TextRun({ text: 'Reflection: ', bold: true }),
-                              new TextRun({ text: schemeOfWork.refl }),
-                            ],
-                          }),
-                        ]
-                      : []),
-
-                    new Paragraph({ text: '' }), // Empty line
-                  ]
-                : []),
-
-              // Lesson Plan Section
+              // Add basic lesson plan info if available
               ...(lessonPlan
                 ? [
                     new Paragraph({
                       children: [
-                        new TextRun({
-                          text: 'LESSON PLAN',
-                          bold: true,
-                          size: 28,
-                        }),
-                      ],
-                      heading: HeadingLevel.HEADING_1,
-                    }),
-
-                    // Lesson plan details table
-                    new Table({
-                      width: {
-                        size: 100,
-                        type: WidthType.PERCENTAGE,
-                      },
-                      rows: [
-                        new TableRow({
-                          children: [
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'School:', bold: true })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: lessonPlan.school })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'Level:', bold: true })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: lessonPlan.level })],
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                        new TableRow({
-                          children: [
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'Date:', bold: true })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: lessonPlan.date })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: 'Time:', bold: true })],
-                                }),
-                              ],
-                            }),
-                            new TableCell({
-                              children: [
-                                new Paragraph({
-                                  children: [new TextRun({ text: lessonPlan.time })],
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
+                        new TextRun({ text: 'School: ', bold: true }),
+                        new TextRun({ text: lessonPlan.school || 'Not specified' }),
                       ],
                     }),
-
                     new Paragraph({
                       children: [
-                        new TextRun({ text: 'Learning Area: ', bold: true }),
-                        new TextRun({ text: lessonPlan.learningArea }),
+                        new TextRun({ text: 'Subject: ', bold: true }),
+                        new TextRun({ text: lessonPlan.learningArea || 'Not specified' }),
                       ],
                     }),
-
                     new Paragraph({
                       children: [
-                        new TextRun({ text: 'Strand: ', bold: true }),
-                        new TextRun({ text: lessonPlan.strand }),
+                        new TextRun({ text: 'Level: ', bold: true }),
+                        new TextRun({ text: lessonPlan.level || 'Not specified' }),
                       ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Sub-Strand: ', bold: true }),
-                        new TextRun({ text: lessonPlan.subStrand }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: 'Specific Learning Outcomes:',
-                          bold: true,
-                          size: 24,
-                        }),
-                      ],
-                      heading: HeadingLevel.HEADING_2,
-                    }),
-
-                    ...(Array.isArray(lessonPlan.specificLearningOutcomes)
-                      ? lessonPlan.specificLearningOutcomes.map(
-                          outcome =>
-                            new Paragraph({
-                              children: [new TextRun({ text: `• ${outcome}` })],
-                            })
-                        )
-                      : [
-                          new Paragraph({
-                            children: [
-                              new TextRun({ text: `• ${lessonPlan.specificLearningOutcomes}` }),
-                            ],
-                          }),
-                        ]),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: 'Organisation of Learning:',
-                          bold: true,
-                          size: 24,
-                        }),
-                      ],
-                      heading: HeadingLevel.HEADING_2,
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Introduction (5 minutes): ', bold: true }),
-                        new TextRun({ text: lessonPlan.organisationOfLearning.introduction }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Lesson Development (30 minutes): ', bold: true }),
-                        new TextRun({ text: lessonPlan.organisationOfLearning.lessonDevelopment }),
-                      ],
-                    }),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({ text: 'Conclusion (5 minutes): ', bold: true }),
-                        new TextRun({ text: lessonPlan.organisationOfLearning.conclusion }),
-                      ],
-                    }),
-
-                    ...(lessonPlan.extendedActivities && lessonPlan.extendedActivities.length > 0
-                      ? [
-                          new Paragraph({
-                            children: [
-                              new TextRun({
-                                text: 'Extended Activities:',
-                                bold: true,
-                                size: 24,
-                              }),
-                            ],
-                            heading: HeadingLevel.HEADING_2,
-                          }),
-                          ...lessonPlan.extendedActivities.map(
-                            activity =>
-                              new Paragraph({
-                                children: [new TextRun({ text: `• ${activity}` })],
-                              })
-                          ),
-                        ]
-                      : []),
-
-                    new Paragraph({
-                      children: [
-                        new TextRun({
-                          text: 'Teacher Self-Evaluation:',
-                          bold: true,
-                          size: 24,
-                        }),
-                      ],
-                      heading: HeadingLevel.HEADING_2,
-                    }),
-
-                    new Paragraph({
-                      children: [new TextRun({ text: lessonPlan.teacherSelfEvaluation })],
                     }),
                   ]
-                : []),
+                : [
+                    new Paragraph({
+                      children: [
+                        new TextRun({ text: 'No lesson plan data available for this test.' }),
+                      ],
+                    }),
+                  ]),
             ],
           },
         ],
