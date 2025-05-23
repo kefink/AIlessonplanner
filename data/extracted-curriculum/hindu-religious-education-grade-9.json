@@ -1,0 +1,73 @@
+{
+  "subject": "Hindu-Religious-Education",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Hindu Religious Education",
+    "Apply Hindu Religious Education concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Hindu Religious Education",
+    "Communicate effectively using Hindu Religious Education terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Hindu Religious Education Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Hindu Religious Education principles and concepts",
+            "Identify key terminology and vocabulary in Hindu Religious Education",
+            "Apply fundamental skills and knowledge in Hindu Religious Education"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Hindu Religious Education and why is it important?",
+            "How do we use Hindu Religious Education in everyday life?",
+            "What are the fundamental principles of Hindu Religious Education?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:28.502Z",
+    "sourceFile": "Grade-9-Hindu-Religious-Education.pdf",
+    "pageCount": 36,
+    "textLength": 49831,
+    "processingNotes": [
+      "Extracted from 1319 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

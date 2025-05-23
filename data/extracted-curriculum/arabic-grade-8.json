@@ -1,0 +1,73 @@
+{
+  "subject": "Arabic",
+  "grade": "Grade 8",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Arabic",
+    "Apply Arabic concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Arabic",
+    "Communicate effectively using Arabic terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Arabic Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Arabic principles and concepts",
+            "Identify key terminology and vocabulary in Arabic",
+            "Apply fundamental skills and knowledge in Arabic"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Arabic and why is it important?",
+            "How do we use Arabic in everyday life?",
+            "What are the fundamental principles of Arabic?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:09.407Z",
+    "sourceFile": "Grade-8-Arabic.pdf",
+    "pageCount": 74,
+    "textLength": 85957,
+    "processingNotes": [
+      "Extracted from 2471 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

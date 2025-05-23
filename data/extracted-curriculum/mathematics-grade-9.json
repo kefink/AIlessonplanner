@@ -1,0 +1,23 @@
+{
+  "subject": "Mathematics",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Mathematics",
+    "Apply Mathematics concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Mathematics",
+    "Communicate effectively using Mathematics terminology and concepts"
+  ],
+  "strands": [],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:28:59.369Z",
+    "sourceFile": "Grade-9-Mathematics.pdf",
+    "pageCount": 61,
+    "textLength": 78995,
+    "processingNotes": [
+      "Extracted from 2681 text lines",
+      "Found 0 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

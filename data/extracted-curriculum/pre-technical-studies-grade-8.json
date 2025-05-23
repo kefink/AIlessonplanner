@@ -1,0 +1,73 @@
+{
+  "subject": "Pre-Technical-Studies",
+  "grade": "Grade 8",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Pre Technical Studies",
+    "Apply Pre Technical Studies concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Pre Technical Studies",
+    "Communicate effectively using Pre Technical Studies terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Pre Technical Studies Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Pre Technical Studies principles and concepts",
+            "Identify key terminology and vocabulary in Pre Technical Studies",
+            "Apply fundamental skills and knowledge in Pre Technical Studies"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Pre Technical Studies and why is it important?",
+            "How do we use Pre Technical Studies in everyday life?",
+            "What are the fundamental principles of Pre Technical Studies?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:53.007Z",
+    "sourceFile": "Grade-8-Pre-Technical-Studies.pdf",
+    "pageCount": 48,
+    "textLength": 56729,
+    "processingNotes": [
+      "Extracted from 1805 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

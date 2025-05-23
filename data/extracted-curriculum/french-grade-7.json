@@ -1,0 +1,73 @@
+{
+  "subject": "French",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in French",
+    "Apply French concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in French",
+    "Communicate effectively using French terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "French Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic French principles and concepts",
+            "Identify key terminology and vocabulary in French",
+            "Apply fundamental skills and knowledge in French"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is French and why is it important?",
+            "How do we use French in everyday life?",
+            "What are the fundamental principles of French?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:11.616Z",
+    "sourceFile": "Grade-7-French.pdf",
+    "pageCount": 59,
+    "textLength": 72368,
+    "processingNotes": [
+      "Extracted from 2045 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "totalFiles": 48,
+  "byGrade": {
+    "7": [
+      "Arabic",
+      "Creative-Arts-Sports",
+      "French",
+      "German",
+      "Grade-7-Grade-7-Agriculture-Nutrition",
+      "Grade-7-Grade-7-Christian-Religious-Education",
+      "Grade-7-Grade-7-English",
+      "Grade-7-Grade-7-Islamic-Religious-Education",
+      "Grade-7-Grade-7-Mathematics",
+      "Grade-7-Grade-7-Pre-Technical-Studies",
+      "Hindu-Religious-Education",
+      "Indigenous-Languages",
+      "Integrated-Science",
+      "Kiswahili",
+      "Mandarin",
+      "Social-Studies"
+    ],
+    "8": [
+      "Arabic",
+      "Creative-Arts-Sports",
+      "French",
+      "German",
+      "Grade-8-Grade-8-Agriculture-Nutrition",
+      "Grade-8-Grade-8-Christian-Religious-Education",
+      "Grade-8-Grade-8-English",
+      "Grade-8-Grade-8-Islamic-Religious-Education",
+      "Grade-8-Grade-8-Mathematics",
+      "Grade-8-Grade-8-Pre-Technical-Studies",
+      "Hindu-Religious-Education",
+      "Indigenous-Languages",
+      "Integrated-Science",
+      "Kiswahili",
+      "Mandarin",
+      "Social-Studies"
+    ],
+    "9": [
+      "Arabic",
+      "Creative-Arts-Sports",
+      "French",
+      "German",
+      "Grade-9-Grade-9-Agriculture-Nutrition",
+      "Grade-9-Grade-9-Christian-Religious-Education",
+      "Grade-9-Grade-9-English",
+      "Grade-9-Grade-9-Islamic-Religious-Education",
+      "Grade-9-Grade-9-Mathematics",
+      "Grade-9-Grade-9-Pre-Technical-Studies",
+      "Hindu-Religious-Education",
+      "Indigenous-Languages",
+      "Integrated-Science",
+      "Kiswahili",
+      "Mandarin",
+      "Social-Studies"
+    ]
+  },
+  "bySubject": {
+    "Arabic": [
+      7,
+      8,
+      9
+    ],
+    "Creative-Arts-Sports": [
+      7,
+      8,
+      9
+    ],
+    "French": [
+      7,
+      8,
+      9
+    ],
+    "German": [
+      7,
+      8,
+      9
+    ],
+    "Grade-7-Grade-7-Agriculture-Nutrition": [
+      7
+    ],
+    "Grade-7-Grade-7-Christian-Religious-Education": [
+      7
+    ],
+    "Grade-7-Grade-7-English": [
+      7
+    ],
+    "Grade-7-Grade-7-Islamic-Religious-Education": [
+      7
+    ],
+    "Grade-7-Grade-7-Mathematics": [
+      7
+    ],
+    "Grade-7-Grade-7-Pre-Technical-Studies": [
+      7
+    ],
+    "Hindu-Religious-Education": [
+      7,
+      8,
+      9
+    ],
+    "Indigenous-Languages": [
+      7,
+      8,
+      9
+    ],
+    "Integrated-Science": [
+      7,
+      8,
+      9
+    ],
+    "Kiswahili": [
+      7,
+      8,
+      9
+    ],
+    "Mandarin": [
+      7,
+      8,
+      9
+    ],
+    "Social-Studies": [
+      7,
+      8,
+      9
+    ],
+    "Grade-8-Grade-8-Agriculture-Nutrition": [
+      8
+    ],
+    "Grade-8-Grade-8-Christian-Religious-Education": [
+      8
+    ],
+    "Grade-8-Grade-8-English": [
+      8
+    ],
+    "Grade-8-Grade-8-Islamic-Religious-Education": [
+      8
+    ],
+    "Grade-8-Grade-8-Mathematics": [
+      8
+    ],
+    "Grade-8-Grade-8-Pre-Technical-Studies": [
+      8
+    ],
+    "Grade-9-Grade-9-Agriculture-Nutrition": [
+      9
+    ],
+    "Grade-9-Grade-9-Christian-Religious-Education": [
+      9
+    ],
+    "Grade-9-Grade-9-English": [
+      9
+    ],
+    "Grade-9-Grade-9-Islamic-Religious-Education": [
+      9
+    ],
+    "Grade-9-Grade-9-Mathematics": [
+      9
+    ],
+    "Grade-9-Grade-9-Pre-Technical-Studies": [
+      9
+    ]
+  },
+  "coreSubjects": [
+    "Creative-Arts-Sports",
+    "Integrated-Science",
+    "Kiswahili",
+    "Social-Studies"
+  ],
+  "additionalSubjects": [
+    "Arabic",
+    "French",
+    "German",
+    "Grade-7-Grade-7-Agriculture-Nutrition",
+    "Grade-7-Grade-7-Christian-Religious-Education",
+    "Grade-7-Grade-7-English",
+    "Grade-7-Grade-7-Islamic-Religious-Education",
+    "Grade-7-Grade-7-Mathematics",
+    "Grade-7-Grade-7-Pre-Technical-Studies",
+    "Hindu-Religious-Education",
+    "Indigenous-Languages",
+    "Mandarin",
+    "Grade-8-Grade-8-Agriculture-Nutrition",
+    "Grade-8-Grade-8-Christian-Religious-Education",
+    "Grade-8-Grade-8-English",
+    "Grade-8-Grade-8-Islamic-Religious-Education",
+    "Grade-8-Grade-8-Mathematics",
+    "Grade-8-Grade-8-Pre-Technical-Studies",
+    "Grade-9-Grade-9-Agriculture-Nutrition",
+    "Grade-9-Grade-9-Christian-Religious-Education",
+    "Grade-9-Grade-9-English",
+    "Grade-9-Grade-9-Islamic-Religious-Education",
+    "Grade-9-Grade-9-Mathematics",
+    "Grade-9-Grade-9-Pre-Technical-Studies"
+  ],
+  "missingSubjects": [
+    {
+      "subject": "Mathematics",
+      "missingGrades": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "subject": "English",
+      "missingGrades": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "subject": "Pre-Technical-Studies",
+      "missingGrades": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "subject": "Agriculture-Nutrition",
+      "missingGrades": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "subject": "Christian-Religious-Education",
+      "missingGrades": [
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

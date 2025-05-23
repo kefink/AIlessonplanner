@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI Lesson Planner specific
+.env.local
+.env.production
+data/exports/*.json
+data/exports/*.csv
+logs/*.log
+*.stackdump
+
+# Curriculum extraction temporary files
+sample-extracted-text.txt
+deployment-info.json
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

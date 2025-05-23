@@ -1,0 +1,61 @@
+{
+  "name": "ai-lesson-planner-junior-secondary",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "REACT_APP_VERSION": "1.0.0-junior-secondary",
+    "REACT_APP_CURRICULUM_LEVEL": "junior-school",
+    "REACT_APP_CURRICULUM_SOURCE": "embedded",
+    "REACT_APP_CURRICULUM_BROWSER": "enabled",
+    "REACT_APP_LESSON_GENERATION": "enabled",
+    "REACT_APP_SCHOOL_CONFIGURATION": "enabled"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "app/api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}

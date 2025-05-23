@@ -1,0 +1,6 @@
+{
+  "name": "AI Lesson Planner",
+  "description": "A React application that uses AI to assist teachers in generating schemes of work and lesson plans from curriculum designs. This serves as a proof of concept.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

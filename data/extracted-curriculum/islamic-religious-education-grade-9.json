@@ -1,0 +1,73 @@
+{
+  "subject": "Islamic-Religious-Education",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Islamic Religious Education",
+    "Apply Islamic Religious Education concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Islamic Religious Education",
+    "Communicate effectively using Islamic Religious Education terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Islamic Religious Education Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Islamic Religious Education principles and concepts",
+            "Identify key terminology and vocabulary in Islamic Religious Education",
+            "Apply fundamental skills and knowledge in Islamic Religious Education"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Islamic Religious Education and why is it important?",
+            "How do we use Islamic Religious Education in everyday life?",
+            "What are the fundamental principles of Islamic Religious Education?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:06.814Z",
+    "sourceFile": "Grade-9-Islamic-Religious-Education.pdf",
+    "pageCount": 58,
+    "textLength": 76010,
+    "processingNotes": [
+      "Extracted from 2403 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "Indigenous-Languages",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Indigenous Languages",
+    "Apply Indigenous Languages concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Indigenous Languages",
+    "Communicate effectively using Indigenous Languages terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Indigenous Languages Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Indigenous Languages principles and concepts",
+            "Identify key terminology and vocabulary in Indigenous Languages",
+            "Apply fundamental skills and knowledge in Indigenous Languages"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Indigenous Languages and why is it important?",
+            "How do we use Indigenous Languages in everyday life?",
+            "What are the fundamental principles of Indigenous Languages?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:22.846Z",
+    "sourceFile": "Grade-7-Indigenous-Languages.pdf",
+    "pageCount": 77,
+    "textLength": 88731,
+    "processingNotes": [
+      "Extracted from 2676 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

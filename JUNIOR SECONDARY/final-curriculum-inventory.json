@@ -1,0 +1,113 @@
+{
+  "cleanupCompleted": "2025-05-23T17:10:54.833Z",
+  "totalFiles": 48,
+  "coreSubjects": {
+    "Agriculture-Nutrition": [
+      7,
+      8,
+      9
+    ],
+    "Christian-Religious-Education": [
+      7,
+      8,
+      9
+    ],
+    "Creative-Arts-Sports": [
+      7,
+      8,
+      9
+    ],
+    "English": [
+      7,
+      8,
+      9
+    ],
+    "Integrated-Science": [
+      7,
+      8,
+      9
+    ],
+    "Kiswahili": [
+      7,
+      8,
+      9
+    ],
+    "Mathematics": [
+      7,
+      8,
+      9
+    ],
+    "Pre-Technical-Studies": [
+      7,
+      8,
+      9
+    ],
+    "Social-Studies": [
+      7,
+      8,
+      9
+    ]
+  },
+  "additionalSubjects": {
+    "Arabic": [
+      7,
+      8,
+      9
+    ],
+    "French": [
+      7,
+      8,
+      9
+    ],
+    "German": [
+      7,
+      8,
+      9
+    ],
+    "Hindu-Religious-Education": [
+      7,
+      8,
+      9
+    ],
+    "Indigenous-Languages": [
+      7,
+      8,
+      9
+    ],
+    "Islamic-Religious-Education": [
+      7,
+      8,
+      9
+    ],
+    "Mandarin": [
+      7,
+      8,
+      9
+    ]
+  },
+  "summary": {
+    "coreSubjectsComplete": [
+      "Mathematics",
+      "English",
+      "Kiswahili",
+      "Integrated-Science",
+      "Pre-Technical-Studies",
+      "Agriculture-Nutrition",
+      "Social-Studies",
+      "Creative-Arts-Sports",
+      "Christian-Religious-Education"
+    ],
+    "coreSubjectsMissing": [],
+    "additionalLanguages": [
+      "Arabic",
+      "French",
+      "German",
+      "Indigenous-Languages",
+      "Mandarin"
+    ],
+    "religiousEducation": [
+      "Hindu-Religious-Education",
+      "Islamic-Religious-Education"
+    ]
+  }
+}

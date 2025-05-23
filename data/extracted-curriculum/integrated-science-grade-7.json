@@ -1,0 +1,176 @@
+{
+  "subject": "Integrated-Science",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Integrated Science",
+    "Apply Integrated Science concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Integrated Science",
+    "Communicate effectively using Integrated Science terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "SCIENTIFIC INVESTIGATION",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "outline the components of",
+            "explain the importance of",
+            "show interest in learning"
+          ],
+          "suggestedLearningExperiences": [
+            "Components of",
+            "Importance of science in",
+            "The learner is guided to:",
+            "brainstorm on the components of",
+            "use digital or print media to search for",
+            "discuss the importance of science in",
+            "search for information from print or",
+            "Communication and collaboration: The learner develops speaking skills as they discuss the importance of science in daily life.",
+            "Self-efficacy: The learner develops effective communication skills as they brainstorm on the components of Integrated Science."
+          ],
+          "keyInquiryQuestions": [
+            "life?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "identify common hazards and",
+            "explain causes of common",
+            "demonstrate First Aid measures",
+            "appreciate the importance of"
+          ],
+          "suggestedLearningExperiences": [
+            "Common hazards",
+            "Common accidents",
+            "Safety measures in",
+            "The learner is guided to:",
+            "brainstorm on common hazards and their",
+            "discuss causes of common laboratory",
+            "role-play some First Aid procedures for",
+            "practice safety measures in the laboratory and",
+            "practice laboratory wastes management",
+            "discuss the importance of safety measures in",
+            "use digital or print media to search for"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "describe the basic",
+            "use and care for",
+            "use the SI units for",
+            "appreciate consumer"
+          ],
+          "suggestedLearningExperiences": [
+            "Basic skills in",
+            "International",
+            "The learner is guided to:",
+            "discuss the use of basic skills in science,",
+            "practice use and care for apparatus and instruments in"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:29:05.384Z",
+    "sourceFile": "Grade-7-Integrated-Science.pdf",
+    "pageCount": 35,
+    "textLength": 47850,
+    "processingNotes": [
+      "Extracted from 1346 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

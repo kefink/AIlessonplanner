@@ -1,0 +1,73 @@
+{
+  "subject": "Agriculture-Nutrition",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Agriculture Nutrition",
+    "Apply Agriculture Nutrition concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Agriculture Nutrition",
+    "Communicate effectively using Agriculture Nutrition terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Agriculture Nutrition Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Agriculture Nutrition principles and concepts",
+            "Identify key terminology and vocabulary in Agriculture Nutrition",
+            "Apply fundamental skills and knowledge in Agriculture Nutrition"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Agriculture Nutrition and why is it important?",
+            "How do we use Agriculture Nutrition in everyday life?",
+            "What are the fundamental principles of Agriculture Nutrition?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:58.673Z",
+    "sourceFile": "Grade-9-Agriculture-Nutrition.pdf",
+    "pageCount": 35,
+    "textLength": 44615,
+    "processingNotes": [
+      "Extracted from 1332 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

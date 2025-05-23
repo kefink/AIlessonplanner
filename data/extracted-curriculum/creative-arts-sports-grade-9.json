@@ -1,0 +1,73 @@
+{
+  "subject": "Creative-Arts-Sports",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Creative Arts Sports",
+    "Apply Creative Arts Sports concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Creative Arts Sports",
+    "Communicate effectively using Creative Arts Sports terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "APPRECIATION IN CREATIVE ARTS AND SPORTS",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "Understand key concepts in ",
+            "Apply knowledge of  in practical situations",
+            "Demonstrate skills in "
+          ],
+          "suggestedLearningExperiences": [
+            "Textbooks on the history and",
+            "Videos showcasing the evolution",
+            "Guest speakers, such as local artists",
+            "Field trips to museums, art"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:00.744Z",
+    "sourceFile": "Grade-9-Creative-Arts-Sports.pdf",
+    "pageCount": 65,
+    "textLength": 80215,
+    "processingNotes": [
+      "Extracted from 2408 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

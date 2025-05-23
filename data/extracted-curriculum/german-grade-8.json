@@ -1,0 +1,68 @@
+{
+  "subject": "German",
+  "grade": "Grade 8",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in German",
+    "Apply German concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in German",
+    "Communicate effectively using German terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "WRITING",
+      "subStrands": [
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "write texts for",
+            "write texts for"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "be guided in writing?",
+            "Theme 3: My Surroundings: My Town “Wohin?”"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:16.123Z",
+    "sourceFile": "Grade-8-German.pdf",
+    "pageCount": 72,
+    "textLength": 74684,
+    "processingNotes": [
+      "Extracted from 2062 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

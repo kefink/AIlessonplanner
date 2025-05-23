@@ -1,0 +1,73 @@
+{
+  "subject": "German",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in German",
+    "Apply German concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in German",
+    "Communicate effectively using German terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "German Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic German principles and concepts",
+            "Identify key terminology and vocabulary in German",
+            "Apply fundamental skills and knowledge in German"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is German and why is it important?",
+            "How do we use German in everyday life?",
+            "What are the fundamental principles of German?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:17.515Z",
+    "sourceFile": "Grade-9-German.pdf",
+    "pageCount": 78,
+    "textLength": 84432,
+    "processingNotes": [
+      "Extracted from 2389 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

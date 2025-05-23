@@ -1,0 +1,132 @@
+{
+  "name": "AI Lesson Planner Automation Configuration",
+  "version": "1.0.0",
+  "description": "Configuration file for automated workflows and processes",
+  
+  "automation": {
+    "enabled": true,
+    "logLevel": "info",
+    "maxRetries": 3,
+    "timeout": 300000,
+    "concurrency": 3
+  },
+  
+  "workflows": {
+    "setup": {
+      "enabled": true,
+      "description": "Initialize project with all necessary configurations",
+      "dependencies": ["node", "npm"],
+      "outputs": [".env.local", "data/", "logs/"]
+    },
+    
+    "quality": {
+      "enabled": true,
+      "description": "Run all code quality checks and fixes",
+      "dependencies": ["eslint", "prettier", "typescript"],
+      "failOnError": false
+    },
+    
+    "build": {
+      "enabled": true,
+      "description": "Complete build and test cycle",
+      "dependencies": ["vite", "vitest"],
+      "outputs": ["dist/", "coverage/"]
+    },
+    
+    "data": {
+      "enabled": true,
+      "description": "Import curriculum data and generate lesson plans",
+      "dependencies": ["curriculum-data"],
+      "inputs": ["data/curriculum/"],
+      "outputs": ["data/exports/"]
+    },
+    
+    "deploy": {
+      "enabled": true,
+      "description": "Deploy application to production",
+      "dependencies": ["vercel"],
+      "environment": "production"
+    }
+  },
+  
+  "batchGeneration": {
+    "enabled": true,
+    "maxConcurrent": 3,
+    "retryAttempts": 3,
+    "delayBetweenRequests": 2000,
+    "outputFormats": ["json", "csv", "txt"],
+    "defaultParams": {
+      "grade": "Grade 9",
+      "subject": "Pre-Technical Studies",
+      "term": "Term 1"
+    }
+  },
+  
+  "dataExport": {
+    "enabled": true,
+    "formats": ["json", "csv", "txt"],
+    "compression": false,
+    "includeMetadata": true,
+    "timestampFormat": "ISO"
+  },
+  
+  "curriculumImport": {
+    "enabled": true,
+    "supportedFormats": [".json", ".csv"],
+    "validation": {
+      "strict": false,
+      "requiredFields": ["grade", "subject", "strand", "subStrand"],
+      "autoFix": true
+    },
+    "backup": true
+  },
+  
+  "testing": {
+    "enabled": true,
+    "coverage": {
+      "threshold": 80,
+      "include": ["services/**", "components/**"],
+      "exclude": ["tests/**", "scripts/**"]
+    },
+    "e2e": {
+      "enabled": false,
+      "browser": "chromium"
+    }
+  },
+  
+  "deployment": {
+    "platform": "vercel",
+    "environment": {
+      "production": {
+        "branch": "main",
+        "domain": "ai-lesson-planner.vercel.app"
+      },
+      "staging": {
+        "branch": "develop",
+        "domain": "ai-lesson-planner-staging.vercel.app"
+      }
+    },
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
+  },
+  
+  "monitoring": {
+    "enabled": true,
+    "logRetention": "30d",
+    "errorTracking": true,
+    "performanceMetrics": true
+  },
+  
+  "security": {
+    "dependencyScanning": true,
+    "secretScanning": true,
+    "codeScanning": true
+  },
+  
+  "maintenance": {
+    "autoUpdate": false,
+    "securityUpdates": true,
+    "cleanupSchedule": "weekly",
+    "backupSchedule": "daily"
+  }
+}

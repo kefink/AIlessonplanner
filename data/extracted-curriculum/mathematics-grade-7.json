@@ -1,0 +1,922 @@
+{
+  "subject": "Mathematics",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Mathematics",
+    "Apply Mathematics concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Mathematics",
+    "Communicate effectively using Mathematics terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "NUMBERS",
+      "subStrands": [
+        {
+          "name": "Whole Numbers",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "use place value and total",
+            "read and write numbers in",
+            "read and write numbers in",
+            "round off numbers up to",
+            "classify natural numbers"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "identify and write place value and",
+            "read and write numbers in symbols",
+            "read and write numbers in words on",
+            "prepare and use place value charts",
+            "play a number game, make number",
+            "work out or perform 2, 3 or more",
+            "identify the number patterns to work"
+          ],
+          "keyInquiryQuestions": [
+            "What is Whole Numbers?",
+            "How do we use Whole Numbers in daily life?",
+            "Why is Whole Numbers important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Factors",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "test divisibility of numbers by",
+            "express composite numbers as",
+            "work out the Greatest",
+            "apply the Greatest Common",
+            "reflect on use of factors in"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "determine divisibility of",
+            "write factors of composite",
+            "use factors to determine the",
+            "use IT to access factors of",
+            "work out application questions",
+            "determine the GCD and LCM of"
+          ],
+          "keyInquiryQuestions": [
+            "What is Factors?",
+            "How do we use Factors in daily life?",
+            "Why is Factors important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Fractions",
+          "specificLearningOutcomes": [
+            "should be able to:",
+            "compare fractions in different",
+            "add fractions in different situations",
+            "subtract fractions in different",
+            "multiply fractions by a whole",
+            "identify the reciprocals of fractions",
+            "divide fractions by a whole number,",
+            "divide a whole number by fractions",
+            "identify number sequence involving",
+            "create number sequence involving",
+            "recognise use of fractions in real life"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to: 1. How do we use",
+            "discuss and arrange fractions in",
+            "arrange fractions in ascending",
+            "add and subtract fractions in",
+            "multiply and divide fractions in"
+          ],
+          "keyInquiryQuestions": [
+            "daily activities?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Decimals",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "identify the place value and the",
+            "multiply decimals by a whole",
+            "divide decimals by a whole",
+            "recognise use of decimals in real"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "discuss, state and use the",
+            "multiply and divide decimals",
+            "use calculators and other IT",
+            "play games involving",
+            "Critical thinking and problem solving:  Open mindedness and creativity as learners identify and use the place value and"
+          ],
+          "keyInquiryQuestions": [
+            "real life?",
+            "daily activities?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Squares and Square Roots",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "determine the squares of whole",
+            "determine the square roots of",
+            "appreciate use of squares and"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "work out squares of",
+            "work out square roots of",
+            "use IT devices to play",
+            "Critical thinking and problem solving:  Reflection as learners use grid squares and charts to find squares and square",
+            "Digital literacy:  Interacting with technologies as learners use IT devices to work out squares and square roots of"
+          ],
+          "keyInquiryQuestions": [
+            "activities?",
+            "activities?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ALGEBRA",
+      "subStrands": [
+        {
+          "name": "Algebraic Expressions",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "form algebraic",
+            "form algebraic",
+            "simplify algebraic",
+            "appreciate use of algebraic"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "discuss and classify objects in their",
+            "discuss how to form algebraic",
+            "read and interpret algebraic",
+            "discuss how to simplify algebraic",
+            "use IT to work out exercises and",
+            "Communication and collaboration:  Speaking, listening and team work; as learners discuss in groups on formation of",
+            "Critical thinking and problem solving:  Interpretation and inference; as learners factorize algebraic expressions"
+          ],
+          "keyInquiryQuestions": [
+            "activities?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Linear Equations",
+          "specificLearningOutcomes": [
+            "form linear equations",
+            "solve linear equations",
+            "apply linear equations",
+            "reflect on use of linear"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "role play activities involving equations",
+            "discuss how to form and solve linear",
+            "use IT to form and solve linear",
+            "Communication and collaboration:  Speaking, listening and team work as learners’ role play activities involving",
+            "Self-efficacy: Self-awareness skills as learners carry out weighing using beam balance and role play.",
+            "Learning to learn:  Organizing own learning as learners apply linear equations in real life."
+          ],
+          "keyInquiryQuestions": [
+            "real life?",
+            "real life?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Linear Inequalities",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "apply inequality symbols to",
+            "form simple linear inequalities in",
+            "illustrate simple inequalities on a",
+            "form compound inequality",
+            "illustrate compound inequalities",
+            "appreciate use of linear"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "use inequality cards to",
+            "use inequality",
+            "draw and represent simple",
+            "use inequality cards to",
+            "draw and represent",
+            "use IT graphing tools to"
+          ],
+          "keyInquiryQuestions": [
+            "What is Linear Inequalities?",
+            "How do we use Linear Inequalities in daily life?",
+            "Why is Linear Inequalities important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MEASUREMENTS",
+      "subStrands": [
+        {
+          "name": "Pythagorean Relationship",
+          "specificLearningOutcomes": [
+            "recognize the sides of",
+            "identify Pythagorean",
+            "apply Pythagorean",
+            "promote use of"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "draw and represent practical cases",
+            "do a variety of activities for"
+          ],
+          "keyInquiryQuestions": [
+            "situations?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Length",
+          "specificLearningOutcomes": [
+            "convert units of length",
+            "perform operations",
+            "work out the perimeter of",
+            "work out the",
+            "promote use of length in"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "generate conversion tables",
+            "practice different operations",
+            "watch videos on correct",
+            "use appropriate measuring tools",
+            "measure and work out perimeter",
+            "measure the circumference and"
+          ],
+          "keyInquiryQuestions": [
+            "What is Length?",
+            "How do we use Length in daily life?",
+            "Why is Length important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Area",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "identify square metre (m",
+            "work out the area of rectangle,",
+            "work out the area of circles in",
+            "calculate the area of borders and",
+            "recognise use of area in real life"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "generate conversion tables",
+            "use cut outs to find the area",
+            "watch videos on how to cut",
+            "cut out a circle into small",
+            "practice cutting out the plane"
+          ],
+          "keyInquiryQuestions": [
+            "figures?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Volume and Capacity",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "identify metre cube (m",
+            "convert metre cube (m",
+            "work out the volume of",
+            "identify the relationship"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "make a cube of sides 1",
+            "discuss and work out the"
+          ],
+          "keyInquiryQuestions": [
+            "activities?",
+            "measure volume?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Time, Distance and Speed",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "identify units of measuring",
+            "convert units of time from one",
+            "convert units of measuring",
+            "identify speed as distance",
+            "work out speed in km/h and",
+            "convert units of speed from"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "use analog or digital clock",
+            "create conversion table on",
+            "discuss and estimate",
+            "engage in activities that"
+          ],
+          "keyInquiryQuestions": [
+            "speed?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Temperature",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "describe the temperature",
+            "compare temperature using",
+            "identify units of measuring",
+            "convert units of measuring",
+            "work out temperature in"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "move to the field, observe",
+            "discuss and test",
+            "identify and use tools of",
+            "work out conversions of"
+          ],
+          "keyInquiryQuestions": [
+            "What is Temperature?",
+            "How do we use Temperature in daily life?",
+            "Why is Temperature important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Money",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "work out profit and loss",
+            "calculate the percentage",
+            "calculate discount and",
+            "calculate commission",
+            "interpret bills at home",
+            "prepare bills in real life",
+            "work out postal charges",
+            "identify mobile money"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "role play shopping and selling",
+            "work out profit and loss",
+            "work out percentage profit/loss",
+            "work out discount and",
+            "work out commission and",
+            "identify different types of bills",
+            "prepare bills of different items"
+          ],
+          "keyInquiryQuestions": [
+            "What is Money?",
+            "How do we use Money in daily life?",
+            "Why is Money important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GEOMETRY",
+      "subStrands": [
+        {
+          "name": "Angles",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "relate different types of",
+            "solve angles at a point in",
+            "relate angles on a transversal",
+            "solve angles in a",
+            "identify angle properties of",
+            "relate interior angles,"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "discuss positions of objects in the",
+            "draw straight lines with different",
+            "draw different angles at a point,",
+            "draw transversals, measure and",
+            "draw parallelograms, measure and",
+            "use cut outs or drawings of"
+          ],
+          "keyInquiryQuestions": [
+            "1. What are angles?",
+            "situations?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "Geometrical Constructions",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "measure different angles in",
+            "bisect angles using a ruler",
+            "construct 90",
+            "construct different triangles",
+            "construct circles using a"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "draw and measure different",
+            "draw and bisect different",
+            "construct 90"
+          ],
+          "keyInquiryQuestions": [
+            "What is Geometrical Constructions?",
+            "How do we use Geometrical Constructions in daily life?",
+            "Why is Geometrical Constructions important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DATA HANDLING AND PROBABILITY",
+      "subStrands": [
+        {
+          "name": "Data handling",
+          "specificLearningOutcomes": [
+            "learner should be able to:",
+            "state the meaning of data in",
+            "collect data from different",
+            "draw frequency distribution",
+            "determine suitable scale for",
+            "draw pictographs of data from",
+            "draw bar graphs of data from",
+            "interpret bar graphs of data from",
+            "draw pie charts of data from real"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "discuss, collect and organize",
+            "tally and represent the data in",
+            "discuss and come up with",
+            "discuss and use a suitable",
+            "discuss and use a suitable",
+            "discuss and interpret bar",
+            "discuss and represent data on"
+          ],
+          "keyInquiryQuestions": [
+            "What is Data handling?",
+            "How do we use Data handling in daily life?",
+            "Why is Data handling important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:28:57.188Z",
+    "sourceFile": "Grade-7-Mathematics.pdf",
+    "pageCount": 60,
+    "textLength": 85670,
+    "processingNotes": [
+      "Extracted from 3094 text lines",
+      "Found 5 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

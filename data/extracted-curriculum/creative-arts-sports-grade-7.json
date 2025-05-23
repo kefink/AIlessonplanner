@@ -1,0 +1,73 @@
+{
+  "subject": "Creative-Arts-Sports",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Creative Arts Sports",
+    "Apply Creative Arts Sports concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Creative Arts Sports",
+    "Communicate effectively using Creative Arts Sports terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Creative Arts Sports Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Creative Arts Sports principles and concepts",
+            "Identify key terminology and vocabulary in Creative Arts Sports",
+            "Apply fundamental skills and knowledge in Creative Arts Sports"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Creative Arts Sports and why is it important?",
+            "How do we use Creative Arts Sports in everyday life?",
+            "What are the fundamental principles of Creative Arts Sports?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:59.202Z",
+    "sourceFile": "Grade-7-Creative-Arts-Sports.pdf",
+    "pageCount": 58,
+    "textLength": 69886,
+    "processingNotes": [
+      "Extracted from 1951 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

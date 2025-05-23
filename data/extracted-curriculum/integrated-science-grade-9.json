@@ -1,0 +1,231 @@
+{
+  "subject": "Integrated-Science",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Integrated Science",
+    "Apply Integrated Science concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Integrated Science",
+    "Communicate effectively using Integrated Science terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "MIXTURES, ELEMENTS AND COMPOUNDS",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "describe the structure of",
+            "determine the mass",
+            "draw the electron",
+            "classify elements into",
+            "show interest in"
+          ],
+          "suggestedLearningExperiences": [
+            "Structure of the",
+            "Atomic number and",
+            "Energy level",
+            "Metals and non –",
+            "The learner is guided to:",
+            "discuss the meaning of the atom"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MIXTURES, ELEMENTS AND COMPOUNDS",
+      "subStrands": [
+        {
+          "name": "Specific Learning",
+          "specificLearningOutcomes": [
+            "should be able to:",
+            "describe the",
+            "describe the",
+            "identify the uses of",
+            "explain the effects",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "Physical properties of",
+            "Composition of alloys",
+            "uses of metals and",
+            "Rusting (causes,"
+          ],
+          "keyInquiryQuestions": [
+            "What is Specific Learning?",
+            "How do we use Specific Learning in daily life?",
+            "Why is Specific Learning important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "describe the physical",
+            "distinguish between hard",
+            "apply methods of softening",
+            "outline advantages and",
+            "appreciate the applications"
+          ],
+          "suggestedLearningExperiences": [
+            "Physical properties of",
+            "Hard and soft water",
+            "Methods of softening",
+            "Advantages and",
+            "The learner is guided to:",
+            "Collect and observe water",
+            "carry out activities to"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LIVING THINGS AND THEIR ENVIRONMENT",
+      "subStrands": [
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "explain the biotic",
+            "construct food",
+            "describe the effect",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "use print and non-print material to search",
+            "investigate the interrelationships between",
+            "where possible observe videos or",
+            "use print and non-print media to search",
+            "discuss the effect of abiotic factors on",
+            "search for information on the effect of",
+            "Effect of human"
+          ],
+          "keyInquiryQuestions": [
+            "environments?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:29:06.638Z",
+    "sourceFile": "Grade-9-Integrated-Science.pdf",
+    "pageCount": 39,
+    "textLength": 45054,
+    "processingNotes": [
+      "Extracted from 1425 text lines",
+      "Found 3 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

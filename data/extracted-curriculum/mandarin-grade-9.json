@@ -1,0 +1,67 @@
+{
+  "subject": "Mandarin",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Mandarin",
+    "Apply Mandarin concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Mandarin",
+    "Communicate effectively using Mandarin terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "WRITING",
+      "subStrands": [
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "write, clear,",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "a text?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:21.610Z",
+    "sourceFile": "Grade-9-Mandarin.pdf",
+    "pageCount": 76,
+    "textLength": 89805,
+    "processingNotes": [
+      "Extracted from 2652 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

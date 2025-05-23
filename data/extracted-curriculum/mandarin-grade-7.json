@@ -1,0 +1,167 @@
+{
+  "subject": "Mandarin",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Mandarin",
+    "Apply Mandarin concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Mandarin",
+    "Communicate effectively using Mandarin terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "LISTENING AND SPEAKING",
+      "subStrands": [
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "choose suitable",
+            "make accurate",
+            "enhance self-"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "sing ‘ the body parts song’ while",
+            "repeat saying descriptive words and phrases",
+            "take turns to describe their peers according to",
+            "describe their friend’s physical attributes using",
+            "discuss how the choice of words when making"
+          ],
+          "keyInquiryQuestions": [
+            "communication?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "use appropriate",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "listen to a poem on weather patterns and",
+            "present pictures of the different seasons and",
+            "collaborate with peers to sing a song on the",
+            "watch a video clip of the clothes worn in",
+            "research on seasons and weather patterns in",
+            "take turns to play seasons vocabulary"
+          ],
+          "keyInquiryQuestions": [
+            "important?",
+            "communicating?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "READING",
+      "subStrands": [
+        {
+          "name": ", the",
+          "specificLearningOutcomes": [
+            "cite key words",
+            "read simple"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "describe seasons and weather patterns",
+            "work with peers to circle words and phrases",
+            "scan through a weather report on a newspaper",
+            "take turns reading simple texts on weather and",
+            "describe the scenes depicted in the pictures",
+            "create reading groups in class and read texts"
+          ],
+          "keyInquiryQuestions": [
+            "reading?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:18.895Z",
+    "sourceFile": "Grade-7-Mandarin.pdf",
+    "pageCount": 77,
+    "textLength": 87125,
+    "processingNotes": [
+      "Extracted from 2555 text lines",
+      "Found 2 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

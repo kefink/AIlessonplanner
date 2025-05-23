@@ -1,0 +1,73 @@
+{
+  "subject": "Christian-Religious-Education",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Christian Religious Education",
+    "Apply Christian Religious Education concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Christian Religious Education",
+    "Communicate effectively using Christian Religious Education terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Christian Religious Education Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Christian Religious Education principles and concepts",
+            "Identify key terminology and vocabulary in Christian Religious Education",
+            "Apply fundamental skills and knowledge in Christian Religious Education"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Christian Religious Education and why is it important?",
+            "How do we use Christian Religious Education in everyday life?",
+            "What are the fundamental principles of Christian Religious Education?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:03.643Z",
+    "sourceFile": "Grade-9-Christian-Religious-Education.pdf",
+    "pageCount": 51,
+    "textLength": 79940,
+    "processingNotes": [
+      "Extracted from 2346 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

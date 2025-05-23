@@ -1,0 +1,86 @@
+{
+  "subject": "Social-Studies",
+  "grade": "Grade 8",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Social Studies",
+    "Apply Social Studies concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Social Studies",
+    "Communicate effectively using Social Studies terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "POLITICAL DEVELOPMENTS AND GOVERNANCE",
+      "subStrands": [
+        {
+          "name": "Suggested",
+          "specificLearningOutcomes": [
+            "Oral questions",
+            "Observation",
+            "Oral questions",
+            "Observations",
+            "Written tests"
+          ],
+          "suggestedLearningExperiences": [
+            "Resource persons",
+            "Approved textbooks",
+            "Approved digital learning",
+            "Relevant locally available",
+            "Watching relevant",
+            "Composing and reciting poems",
+            "Role plays on self",
+            "Resource persons",
+            "Approved textbooks",
+            "Approved digital learning",
+            "Relevant locally available",
+            "Watching relevant",
+            "Composing and singing",
+            "Creating posters or",
+            "Writing essays on self esteem"
+          ],
+          "keyInquiryQuestions": [
+            "What is Suggested?",
+            "How do we use Suggested in daily life?",
+            "Why is Suggested important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:56.360Z",
+    "sourceFile": "Grade-8-Social-Studies.pdf",
+    "pageCount": 72,
+    "textLength": 93080,
+    "processingNotes": [
+      "Extracted from 3013 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

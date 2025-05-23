@@ -1,0 +1,23 @@
+{
+  "subject": "Kiswahili",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Kiswahili",
+    "Apply Kiswahili concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Kiswahili",
+    "Communicate effectively using Kiswahili terminology and concepts"
+  ],
+  "strands": [],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:29:11.578Z",
+    "sourceFile": "Grade-9-Kiswahili.pdf",
+    "pageCount": 160,
+    "textLength": 195942,
+    "processingNotes": [
+      "Extracted from 6984 text lines",
+      "Found 0 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

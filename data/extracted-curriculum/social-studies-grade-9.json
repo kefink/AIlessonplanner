@@ -1,0 +1,878 @@
+{
+  "subject": "Social-Studies",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Social Studies",
+    "Apply Social Studies concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Social Studies",
+    "Communicate effectively using Social Studies terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "SOCIAL STUDIES AND CAREER DEVELOPMENT",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "identify factors to consider",
+            "examine requirements for",
+            "choose a possible track",
+            "appreciate the need for"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "explore and use support",
+            "analyze challenges arising",
+            "design solutions to",
+            "explain the significance of",
+            "appreciate the value of the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "COMMUNITY SERVICE-LEARNING",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "identify a problem in",
+            "design a solution to",
+            "plan to solve the",
+            "implement the plan to",
+            "write a report on the",
+            "appreciate teamwork"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PEOPLE AND RELATIONSHIPS",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "describe the socio-",
+            "examine different types",
+            "illustrate the tools used",
+            "recognise socio-"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "identify types of",
+            "explain how the",
+            "use indigenous to and",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and discussions",
+            "Hands-on practical activities",
+            "Group work and collaborative learning",
+            "Real-world problem solving exercises"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "explain causes of",
+            "examine the effects",
+            "apply creative",
+            "recognize the"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "identify sources of",
+            "explain factors",
+            "construct age-sex",
+            "determine the",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "explain types of peace for",
+            "identify barriers to",
+            "explore ways of managing",
+            "apply emotional",
+            "embrace peace initiatives"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "explain ways of",
+            "explore barriers to",
+            "design strategies to",
+            "appreciate the need for"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NATURAL AND HISTORIC BUILT ENVIRONMENTS",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "describe human",
+            "use creative thinking",
+            "illustrate cross-"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "explore the types and",
+            "explain the theories of",
+            "illustrate the formation of",
+            "explain the effects of",
+            "recognise internal land"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "identify selected multi-",
+            "outline the conditions that",
+            "examine the economic",
+            "assess challenges facing",
+            "design solutions to",
+            "recognise the importance"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "explore factors that lead",
+            "describe the effects of",
+            "design measures to",
+            "apply creative thinking",
+            "acknowledge the"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "identify the selected",
+            "examine importance of",
+            "design measures to",
+            "apply critical thinking",
+            "value heritage sites in the"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POLITICAL DEVELOPMENTS AND GOVERNANCE",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "identify the stages in the",
+            "examine the role of",
+            "explore the role of",
+            "participate in the",
+            "desire to defend and"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "identify individual and",
+            "illustrate the role of",
+            "outline positions vied",
+            "exhibit values that"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "explore Kenya’s Bill of",
+            "examine human rights",
+            "apply the bill of rights",
+            "develop assertiveness",
+            "cultivate empathy and",
+            "embrace respect for"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "identify cultural",
+            "examine African",
+            "explore ways of",
+            "enumerate factors that",
+            "appreciate values and"
+          ],
+          "suggestedLearningExperiences": [
+            "Learner is guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "Oral questions",
+            "Written tests",
+            "Project work",
+            "Observation",
+            "Oral questions",
+            "Written tests",
+            "Project work",
+            "Observation"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and discussions",
+            "Hands-on practical activities",
+            "Group work and collaborative learning",
+            "Real-world problem solving exercises"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:57.573Z",
+    "sourceFile": "Grade-9-Social-Studies.pdf",
+    "pageCount": 71,
+    "textLength": 97587,
+    "processingNotes": [
+      "Extracted from 3594 text lines",
+      "Found 5 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

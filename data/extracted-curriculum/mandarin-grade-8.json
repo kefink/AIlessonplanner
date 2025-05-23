@@ -1,0 +1,73 @@
+{
+  "subject": "Mandarin",
+  "grade": "Grade 8",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Mandarin",
+    "Apply Mandarin concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Mandarin",
+    "Communicate effectively using Mandarin terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "Mandarin Fundamentals",
+      "subStrands": [
+        {
+          "name": "Introduction to Concepts",
+          "specificLearningOutcomes": [
+            "Understand basic Mandarin principles and concepts",
+            "Identify key terminology and vocabulary in Mandarin",
+            "Apply fundamental skills and knowledge in Mandarin"
+          ],
+          "suggestedLearningExperiences": [
+            "Interactive demonstrations and explanations",
+            "Hands-on practical activities and experiments",
+            "Group discussions and collaborative learning",
+            "Real-world applications and case studies"
+          ],
+          "keyInquiryQuestions": [
+            "What is Mandarin and why is it important?",
+            "How do we use Mandarin in everyday life?",
+            "What are the fundamental principles of Mandarin?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:51:20.173Z",
+    "sourceFile": "Grade-8-Mandarin.pdf",
+    "pageCount": 76,
+    "textLength": 90268,
+    "processingNotes": [
+      "Extracted from 2505 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

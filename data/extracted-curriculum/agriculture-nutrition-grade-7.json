@@ -1,0 +1,69 @@
+{
+  "subject": "Agriculture-Nutrition",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Agriculture Nutrition",
+    "Apply Agriculture Nutrition concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Agriculture Nutrition",
+    "Communicate effectively using Agriculture Nutrition terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "PRODUCTION TECHNIQUES",
+      "subStrands": [
+        {
+          "name": "the",
+          "specificLearningOutcomes": [
+            "explain ways of",
+            "add value to a",
+            "appreciate the"
+          ],
+          "suggestedLearningExperiences": [
+            "Learners are guided to:"
+          ],
+          "keyInquiryQuestions": [
+            "crop produce?",
+            "crop produce?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:57.981Z",
+    "sourceFile": "Grade-7-Agriculture-Nutrition.pdf",
+    "pageCount": 36,
+    "textLength": 47848,
+    "processingNotes": [
+      "Extracted from 1466 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

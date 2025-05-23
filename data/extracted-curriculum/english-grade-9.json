@@ -1,0 +1,23 @@
+{
+  "subject": "English",
+  "grade": "Grade 9",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in English",
+    "Apply English concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in English",
+    "Communicate effectively using English terminology and concepts"
+  ],
+  "strands": [],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:29:04.928Z",
+    "sourceFile": "Grade-9-English.pdf",
+    "pageCount": 152,
+    "textLength": 164035,
+    "processingNotes": [
+      "Extracted from 5500 text lines",
+      "Found 0 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

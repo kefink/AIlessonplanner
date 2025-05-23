@@ -1,0 +1,120 @@
+{
+  "subject": "Social-Studies",
+  "grade": "Grade 7",
+  "level": "junior-school",
+  "generalLearningOutcomes": [
+    "Develop foundational knowledge and skills in Social Studies",
+    "Apply Social Studies concepts to solve real-world problems",
+    "Demonstrate critical thinking and analytical skills in Social Studies",
+    "Communicate effectively using Social Studies terminology and concepts"
+  ],
+  "strands": [
+    {
+      "name": "POLITICAL DEVELOPMENT AND GOVERNANCE",
+      "subStrands": [
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "the learner should be able to:",
+            "discuss the importance of",
+            "analyse ways of",
+            "apply the national values",
+            "uphold and protect the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "use print or digital devices to",
+            "watch a video on the",
+            "design a sample constitution",
+            "write simple slogans or"
+          ],
+          "keyInquiryQuestions": [
+            "constitution?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        },
+        {
+          "name": "",
+          "specificLearningOutcomes": [
+            "explore the factors",
+            "locate countries",
+            "assess the role of the",
+            "acknowledge the"
+          ],
+          "suggestedLearningExperiences": [
+            "The learner is guided to:",
+            "with the aid of print or internet",
+            "use library resources to",
+            "use print or digital resources to",
+            "watch a video or You- Tube on"
+          ],
+          "keyInquiryQuestions": [
+            "What is ?",
+            "How do we use  in daily life?",
+            "Why is  important?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking",
+            "Communication",
+            "Creativity",
+            "Collaboration"
+          ],
+          "values": [
+            "Responsibility",
+            "Respect",
+            "Integrity",
+            "Unity"
+          ],
+          "pertinentAndContemporaryIssues": [
+            "Innovation",
+            "Technology",
+            "Sustainability",
+            "Global citizenship"
+          ],
+          "assessmentMethods": [
+            "Observation",
+            "Practical work",
+            "Oral questioning",
+            "Written tests",
+            "Projects"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractedAt": "2025-05-23T17:50:55.218Z",
+    "sourceFile": "Grade-7-Social-Studies.pdf",
+    "pageCount": 70,
+    "textLength": 89982,
+    "processingNotes": [
+      "Extracted from 2744 text lines",
+      "Found 1 strands",
+      "Automated parsing completed"
+    ]
+  }
+}

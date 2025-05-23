@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-05-23T06:42:27.442Z",
+    "description": "Sample curriculum data for AI Lesson Planner"
+  },
+  "curriculum": [
+    {
+      "id": "grade9-pretech-term1-week1-lesson1",
+      "grade": "Grade 9",
+      "subject": "Pre-Technical Studies",
+      "term": "Term 1",
+      "week": "1",
+      "lesson": "1",
+      "strand": "FOUNDATIONS OF PRE-TECHNICAL STUDIES",
+      "subStrand": "Safety on Raised Platforms - types of raised platforms (ladders & trestles)",
+      "specificLearningOutcomes": [
+        "Identify types of raised platforms used in performing tasks.",
+        "Explore the use of ladders and trestles.",
+        "Appreciate working with raised platforms."
+      ],
+      "keyInquiryQuestions": [
+        "What is the importance of observing safety when working on raised platforms?"
+      ],
+      "learningExperiences": [
+        "The learner is guided to walk around the school to explore types of raised platforms (ladders, trestles).",
+        "The learner is guided to brainstorm on the types of raised platforms used in day-to-day life."
+      ],
+      "learningResources": [
+        "Raised platforms (actual or pictures)",
+        "Video clips and visual aids demonstrating use of ladders and trestles",
+        "Personal protective equipment (PPEs) relevant to working on raised platforms",
+        "Distinction Pretech. Studies Grade 9 P.B. Pg.1-4"
+      ],
+      "assessmentMethods": [
+        "Oral questioning on types and uses of ladders/trestles.",
+        "Observation of learner participation in discussions and activities.",
+        "Checklist for identifying safety aspects.",
+        "Short written quiz on platform types and safety.",
+        "Rubrics for practical demonstration (if applicable).",
+        "Practical work involving safe setup/use (simulated if needed)."
+      ]
+    }
+  ]
+}
