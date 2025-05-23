@@ -33,11 +33,11 @@ export const DiagnosticPanel: React.FC = () => {
   const loadDiagnostics = () => {
     // Get environment variables
     const environmentVars = {
-      'REACT_APP_QWEN_API_KEY': getEnvVar('REACT_APP_QWEN_API_KEY'),
-      'QWEN_API_KEY': getEnvVar('QWEN_API_KEY'),
-      'REACT_APP_QWEN_MODEL': getEnvVar('REACT_APP_QWEN_MODEL'),
-      'REACT_APP_QWEN_API_BASE_URL': getEnvVar('REACT_APP_QWEN_API_BASE_URL'),
-      'NODE_ENV': getEnvVar('NODE_ENV'),
+      REACT_APP_QWEN_API_KEY: getEnvVar('REACT_APP_QWEN_API_KEY'),
+      QWEN_API_KEY: getEnvVar('QWEN_API_KEY'),
+      REACT_APP_QWEN_MODEL: getEnvVar('REACT_APP_QWEN_MODEL'),
+      REACT_APP_QWEN_API_BASE_URL: getEnvVar('REACT_APP_QWEN_API_BASE_URL'),
+      NODE_ENV: getEnvVar('NODE_ENV'),
     };
 
     // Get Qwen service configuration
@@ -57,36 +57,44 @@ export const DiagnosticPanel: React.FC = () => {
         return windowEnv[key];
       }
     }
-    
+
     if (typeof import.meta !== 'undefined' && import.meta.env) {
       const viteEnv = import.meta.env[key];
       if (viteEnv) return viteEnv;
     }
-    
+
     if (typeof process !== 'undefined' && process.env) {
       const nodeEnv = process.env[key];
       if (nodeEnv) return nodeEnv;
     }
-    
+
     return undefined;
   };
 
   const testConnection = async () => {
     setIsTestingConnection(true);
     try {
-      const success = await qwenAiService.testConnection();
-      setDiagnostics(prev => prev ? {
-        ...prev,
-        connectionTest: { success }
-      } : null);
+      const result = await qwenAiService.testConnection();
+      setDiagnostics(prev =>
+        prev
+          ? {
+              ...prev,
+              connectionTest: result,
+            }
+          : null
+      );
     } catch (error) {
-      setDiagnostics(prev => prev ? {
-        ...prev,
-        connectionTest: { 
-          success: false, 
-          error: error instanceof Error ? error.message : String(error)
-        }
-      } : null);
+      setDiagnostics(prev =>
+        prev
+          ? {
+              ...prev,
+              connectionTest: {
+                success: false,
+                error: error instanceof Error ? error.message : String(error),
+              },
+            }
+          : null
+      );
     } finally {
       setIsTestingConnection(false);
     }
@@ -96,8 +104,8 @@ export const DiagnosticPanel: React.FC = () => {
     return (
       <button
         onClick={() => setIsVisible(true)}
-        className="fixed bottom-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition-colors z-50"
-        title="Show API Diagnostics"
+        className='fixed bottom-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition-colors z-50'
+        title='Show API Diagnostics'
       >
         🔧 Debug
       </button>
@@ -105,28 +113,29 @@ export const DiagnosticPanel: React.FC = () => {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 bg-white border border-gray-300 rounded-lg shadow-xl p-4 max-w-md max-h-96 overflow-y-auto z-50">
-      <div className="flex justify-between items-center mb-3">
-        <h3 className="text-lg font-semibold text-gray-800">🔧 API Diagnostics</h3>
-        <button
-          onClick={() => setIsVisible(false)}
-          className="text-gray-500 hover:text-gray-700"
-        >
+    <div className='fixed bottom-4 right-4 bg-white border border-gray-300 rounded-lg shadow-xl p-4 max-w-md max-h-96 overflow-y-auto z-50'>
+      <div className='flex justify-between items-center mb-3'>
+        <h3 className='text-lg font-semibold text-gray-800'>🔧 API Diagnostics</h3>
+        <button onClick={() => setIsVisible(false)} className='text-gray-500 hover:text-gray-700'>
           ✕
         </button>
       </div>
 
       {diagnostics && (
-        <div className="space-y-4 text-sm">
+        <div className='space-y-4 text-sm'>
           {/* Environment Variables */}
           <div>
-            <h4 className="font-medium text-gray-700 mb-2">Environment Variables:</h4>
-            <div className="space-y-1">
+            <h4 className='font-medium text-gray-700 mb-2'>Environment Variables:</h4>
+            <div className='space-y-1'>
               {Object.entries(diagnostics.environmentVars).map(([key, value]) => (
-                <div key={key} className="flex justify-between">
-                  <span className="text-gray-600">{key}:</span>
+                <div key={key} className='flex justify-between'>
+                  <span className='text-gray-600'>{key}:</span>
                   <span className={value ? 'text-green-600' : 'text-red-600'}>
-                    {value ? (key.includes('KEY') ? `${value.substring(0, 10)}...` : value) : 'missing'}
+                    {value
+                      ? key.includes('KEY')
+                        ? `${value.substring(0, 10)}...`
+                        : value
+                      : 'missing'}
                   </span>
                 </div>
               ))}
@@ -135,19 +144,21 @@ export const DiagnosticPanel: React.FC = () => {
 
           {/* Qwen Configuration */}
           <div>
-            <h4 className="font-medium text-gray-700 mb-2">Qwen Configuration:</h4>
-            <div className="space-y-1">
-              <div className="flex justify-between">
-                <span className="text-gray-600">Model:</span>
-                <span className="text-blue-600">{diagnostics.qwenConfig.model}</span>
+            <h4 className='font-medium text-gray-700 mb-2'>Qwen Configuration:</h4>
+            <div className='space-y-1'>
+              <div className='flex justify-between'>
+                <span className='text-gray-600'>Model:</span>
+                <span className='text-blue-600'>{diagnostics.qwenConfig.model}</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">Base URL:</span>
-                <span className="text-blue-600 truncate">{diagnostics.qwenConfig.baseUrl}</span>
+              <div className='flex justify-between'>
+                <span className='text-gray-600'>Base URL:</span>
+                <span className='text-blue-600 truncate'>{diagnostics.qwenConfig.baseUrl}</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-gray-600">API Key:</span>
-                <span className={diagnostics.qwenConfig.hasApiKey ? 'text-green-600' : 'text-red-600'}>
+              <div className='flex justify-between'>
+                <span className='text-gray-600'>API Key:</span>
+                <span
+                  className={diagnostics.qwenConfig.hasApiKey ? 'text-green-600' : 'text-red-600'}
+                >
                   {diagnostics.qwenConfig.hasApiKey ? '✅ Present' : '❌ Missing'}
                 </span>
               </div>
@@ -156,32 +167,32 @@ export const DiagnosticPanel: React.FC = () => {
 
           {/* Connection Test */}
           <div>
-            <div className="flex justify-between items-center mb-2">
-              <h4 className="font-medium text-gray-700">Connection Test:</h4>
+            <div className='flex justify-between items-center mb-2'>
+              <h4 className='font-medium text-gray-700'>Connection Test:</h4>
               <button
                 onClick={testConnection}
                 disabled={isTestingConnection}
-                className="bg-blue-500 text-white px-2 py-1 rounded text-xs hover:bg-blue-600 disabled:opacity-50"
+                className='bg-blue-500 text-white px-2 py-1 rounded text-xs hover:bg-blue-600 disabled:opacity-50'
               >
                 {isTestingConnection ? 'Testing...' : 'Test'}
               </button>
             </div>
             {diagnostics.connectionTest && (
-              <div className={`p-2 rounded ${diagnostics.connectionTest.success ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                {diagnostics.connectionTest.success ? (
-                  '✅ Connection successful'
-                ) : (
-                  `❌ Connection failed: ${diagnostics.connectionTest.error}`
-                )}
+              <div
+                className={`p-2 rounded ${diagnostics.connectionTest.success ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
+              >
+                {diagnostics.connectionTest.success
+                  ? '✅ Connection successful'
+                  : `❌ Connection failed: ${diagnostics.connectionTest.error}`}
               </div>
             )}
           </div>
 
           {/* Actions */}
-          <div className="pt-2 border-t">
+          <div className='pt-2 border-t'>
             <button
               onClick={loadDiagnostics}
-              className="w-full bg-gray-500 text-white px-3 py-1 rounded text-xs hover:bg-gray-600"
+              className='w-full bg-gray-500 text-white px-3 py-1 rounded text-xs hover:bg-gray-600'
             >
               🔄 Refresh Diagnostics
             </button>

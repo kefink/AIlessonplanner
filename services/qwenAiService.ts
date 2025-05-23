@@ -32,12 +32,10 @@ function getEnvVar(key: string, fallback?: string): string | undefined {
   return fallback;
 }
 
-const QWEN_API_BASE_URL = getEnvVar('REACT_APP_QWEN_API_BASE_URL', 'https://openrouter.ai/api/v1');
-const QWEN_API_KEY =
-  getEnvVar('REACT_APP_QWEN_API_KEY') ||
-  getEnvVar('QWEN_API_KEY') ||
-  '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'; // Fallback API key
-const QWEN_MODEL = getEnvVar('REACT_APP_QWEN_MODEL', 'qwen/qwen3-235b-a22b:free');
+// Production configuration - using direct values since environment variables aren't loading properly
+const QWEN_API_BASE_URL = 'https://openrouter.ai/api/v1';
+const QWEN_API_KEY = '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';
+const QWEN_MODEL = 'qwen/qwen3-235b-a22b:free';
 
 // Fallback models for when the main model times out
 const FALLBACK_MODELS = [
@@ -416,22 +414,40 @@ Your JSON response:`;
   /**
    * Test the connection to Qwen AI
    */
-  async testConnection(): Promise<boolean> {
+  async testConnection(): Promise<{ success: boolean; error?: string }> {
     try {
-      const response = await this.generateContent(
-        "Hello, please respond with 'Connection successful'",
-        {
-          maxTokens: 50,
-          temperature: 0.1,
-        }
-      );
-      return (
+      console.log('🔍 Testing Qwen AI connection...');
+      console.log('  API Key:', this.apiKey ? `${this.apiKey.substring(0, 10)}...` : 'missing');
+      console.log('  Base URL:', this.baseUrl);
+      console.log('  Model:', this.model);
+
+      if (!this.apiKey) {
+        throw new Error('API Key not configured');
+      }
+
+      // Simple test request to verify API connectivity
+      const response = await this.generateContent("Hello, please respond with just 'OK'", {
+        maxTokens: 10,
+        temperature: 0.1,
+        retries: 1,
+      });
+
+      const success =
         response.toLowerCase().includes('connection successful') ||
-        response.toLowerCase().includes('hello')
-      );
+        response.toLowerCase().includes('hello') ||
+        response.length > 0;
+
+      console.log('✅ Connection test successful:', response);
+      return { success };
     } catch (error) {
-      console.error('Qwen AI connection test failed:', error);
-      return false;
+      console.error('❌ Qwen AI connection test failed:', error);
+      const errorMessage =
+        error instanceof Error
+          ? error.message
+          : typeof error === 'string'
+            ? error
+            : 'Unknown connection error';
+      return { success: false, error: errorMessage };
     }
   }
 
