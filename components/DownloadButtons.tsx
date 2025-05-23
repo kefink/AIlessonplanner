@@ -51,15 +51,6 @@ export function DownloadButtons({
     }
   };
 
-  const handlePrint = () => {
-    try {
-      DownloadService.printLessonPlan();
-    } catch (error) {
-      console.error('Print failed:', error);
-      alert('Failed to print. Please try again.');
-    }
-  };
-
   const handleEdit = () => {
     setIsEditModalOpen(true);
   };
@@ -184,21 +175,6 @@ export function DownloadButtons({
           )}
         </button>
 
-        {/* Print Button */}
-        <button
-          onClick={handlePrint}
-          className='flex items-center justify-center px-4 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200'
-        >
-          <svg className='w-5 h-5 mr-2' fill='currentColor' viewBox='0 0 20 20'>
-            <path
-              fillRule='evenodd'
-              d='M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zM5 14H4v-2h1v2zm1 0v2h8v-2H6z'
-              clipRule='evenodd'
-            />
-          </svg>
-          Print
-        </button>
-
         {/* Edit Button */}
         <button
           onClick={handleEdit}
@@ -232,16 +208,7 @@ export function DownloadButtons({
           </svg>
           <strong>Word:</strong> Editable format, perfect for customization
         </p>
-        <p className='flex items-center mt-1'>
-          <svg className='w-4 h-4 mr-1 text-sky-400' fill='currentColor' viewBox='0 0 20 20'>
-            <path
-              fillRule='evenodd'
-              d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z'
-              clipRule='evenodd'
-            />
-          </svg>
-          <strong>Print:</strong> Direct printing to your default printer
-        </p>
+
         <p className='flex items-center mt-1'>
           <svg className='w-4 h-4 mr-1 text-sky-400' fill='currentColor' viewBox='0 0 20 20'>
             <path

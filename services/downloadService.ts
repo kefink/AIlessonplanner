@@ -158,6 +158,10 @@ export class DownloadService {
     lessonPlan: LessonPlan | null
   ): Promise<void> {
     try {
+      console.log('🔄 Starting Word document generation...');
+      console.log('SchemeOfWork:', !!schemeOfWork);
+      console.log('LessonPlan:', !!lessonPlan);
+
       const doc = new Document({
         sections: [
           {
@@ -515,27 +519,43 @@ export class DownloadService {
       const timestamp = new Date().toISOString().slice(0, 19).replace(/[:.]/g, '-');
       const filename = `lesson-plan-${timestamp}.docx`;
 
+      console.log('📄 Generating Word document buffer...');
+
       // Generate and save the document
       const buffer = await Packer.toBuffer(doc);
+      console.log('✅ Buffer generated successfully, size:', buffer.byteLength);
+
       const blob = new Blob([buffer], {
         type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       });
-      saveAs(blob, filename);
-    } catch (error) {
-      console.error('Error generating Word document:', error);
-      throw new Error('Failed to generate Word document. Please try again.');
-    }
-  }
+      console.log('📦 Blob created, starting download...');
 
-  /**
-   * Print the current lesson plan
-   */
-  static printLessonPlan(): void {
-    try {
-      window.print();
+      saveAs(blob, filename);
+      console.log('🎉 Word document download initiated:', filename);
     } catch (error) {
-      console.error('Error printing:', error);
-      throw new Error('Failed to print. Please try again.');
+      console.error('❌ Error generating Word document:', error);
+      console.error('Error details:', {
+        name: error instanceof Error ? error.name : 'Unknown',
+        message: error instanceof Error ? error.message : String(error),
+        stack: error instanceof Error ? error.stack : undefined,
+      });
+
+      // More specific error message
+      if (error instanceof Error) {
+        if (error.message.includes('Packer')) {
+          throw new Error(
+            'Word document generation failed: Document packer error. Please try again.'
+          );
+        } else if (error.message.includes('saveAs')) {
+          throw new Error(
+            'Word document generation failed: Download error. Please check your browser settings.'
+          );
+        } else {
+          throw new Error(`Word document generation failed: ${error.message}`);
+        }
+      } else {
+        throw new Error('Failed to generate Word document. Please try again.');
+      }
     }
   }
 }
