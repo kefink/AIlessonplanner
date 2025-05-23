@@ -5,6 +5,7 @@ import { FeasibilityNotes } from './components/FeasibilityNotes';
 import { LoadingWithTimeout } from './components/LoadingWithTimeout';
 import { SchoolSetup } from './components/SchoolSetup';
 import { HODDashboard } from './components/HODDashboard';
+import { DiagnosticPanel } from './components/DiagnosticPanel';
 import type { SchemeOfWorkEntry, LessonPlan, GenerationParams } from './types';
 import { generateSchemeAndPlan } from './services/aiPlannerService';
 import { type EditableData } from './services/editService';
@@ -338,6 +339,9 @@ function App(): React.ReactNode {
       </main>
 
       {showFeasibility && <FeasibilityNotes onClose={() => setShowFeasibility(false)} />}
+
+      {/* Diagnostic Panel for debugging API issues */}
+      <DiagnosticPanel />
 
       <footer className='text-center mt-12 text-slate-400 text-sm'>
         <p>&copy; {new Date().getFullYear()} AI Lesson Planner PoC. For demonstration purposes.</p>
