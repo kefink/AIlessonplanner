@@ -7,12 +7,18 @@ import { SchoolSetup } from './components/SchoolSetup';
 import { HODDashboard } from './components/HODDashboard';
 import { DiagnosticPanel } from './components/DiagnosticPanel';
 import { TeacherProfileSetup } from './components/TeacherProfileSetup';
+import { ScheduleConfig } from './components/ScheduleConfig';
 import type { SchemeOfWorkEntry, LessonPlan, GenerationParams } from './types';
 import type { TeacherProfile } from './types/teacher';
 import { generateSchemeAndPlan } from './services/aiPlannerService';
 import { type EditableData } from './services/editService';
 import { DemoDataService } from './services/demoDataService';
 import { TeacherProfileService } from './services/teacherProfileService';
+import { SubjectManager } from './components/SubjectManager';
+import { ResourceManager } from './components/ResourceManager';
+import { TeacherManager } from './components/TeacherManager';
+import { ClassManager } from './components/ClassManager';
+import { ScheduleExporter } from './components/ScheduleExporter';
 
 interface SchoolConfig {
   schoolName: string;
@@ -34,7 +40,7 @@ interface SchoolConfig {
   }[];
 }
 
-type AppMode = 'setup' | 'hod' | 'teacher' | 'teacher-setup' | 'demo';
+type AppMode = 'setup' | 'hod' | 'teacher' | 'teacher-setup' | 'demo' | 'schedule' | 'resources' | 'teachers' | 'classes' | 'export';
 
 function App(): React.ReactNode {
   const [schemeOfWork, setSchemeOfWork] = useState<SchemeOfWorkEntry | null>(null);
@@ -46,6 +52,11 @@ function App(): React.ReactNode {
   const [schoolConfig, setSchoolConfig] = useState<SchoolConfig | null>(null);
   const [currentHOD, setCurrentHOD] = useState<SchoolConfig['hodAccess'][0] | null>(null);
   const [teacherProfile, setTeacherProfile] = useState<TeacherProfile | null>(null);
+  const [scheduleConfig, setScheduleConfig] = useState<any>(null);
+  const [subjects, setSubjects] = useState<Subject[]>([]);
+  const [resources, setResources] = useState<any[]>([]);
+  const [teachers, setTeachers] = useState<any[]>([]);
+  const [classes, setClasses] = useState<any[]>([]);
   const abortControllerRef = useRef<AbortController | null>(null);
 
   // Load school configuration and teacher profile from localStorage on app start
@@ -207,6 +218,73 @@ function App(): React.ReactNode {
   const handleDataUpdate = useCallback((data: EditableData) => {
     setSchemeOfWork(data.schemeOfWork);
     setLessonPlan(data.lessonPlan);
+  }, []);
+
+  const handleScheduleConfigComplete = useCallback((config: any) => {
+    setScheduleConfig(config);
+    localStorage.setItem('scheduleConfig', JSON.stringify(config));
+    setAppMode('demo');
+  }, []);
+
+  const handleResourceUpdate = useCallback((updatedResources: any[]) => {
+    setResources(updatedResources);
+    localStorage.setItem('resources', JSON.stringify(updatedResources));
+  }, []);
+
+  const handleTeacherUpdate = useCallback((updatedTeachers: any[]) => {
+    setTeachers(updatedTeachers);
+    localStorage.setItem('teachers', JSON.stringify(updatedTeachers));
+  }, []);
+
+  const handleClassUpdate = useCallback((updatedClasses: any[]) => {
+    setClasses(updatedClasses);
+    localStorage.setItem('classes', JSON.stringify(updatedClasses));
+  }, []);
+
+  const handleScheduleImport = useCallback((data: any) => {
+    setClasses(data.classes);
+    setTeachers(data.teachers);
+    setResources(data.resources);
+    setSubjects(data.subjects);
+    setScheduleConfig(data.scheduleConfig);
+    
+    // Update localStorage
+    localStorage.setItem('classes', JSON.stringify(data.classes));
+    localStorage.setItem('teachers', JSON.stringify(data.teachers));
+    localStorage.setItem('resources', JSON.stringify(data.resources));
+    localStorage.setItem('subjects', JSON.stringify(data.subjects));
+    localStorage.setItem('scheduleConfig', JSON.stringify(data.scheduleConfig));
+  }, []);
+
+  // Load resources, teachers, and classes from localStorage
+  useEffect(() => {
+    const savedResources = localStorage.getItem('resources');
+    const savedTeachers = localStorage.getItem('teachers');
+    const savedClasses = localStorage.getItem('classes');
+
+    if (savedResources) {
+      try {
+        setResources(JSON.parse(savedResources));
+      } catch (error) {
+        console.error('Failed to load resources:', error);
+      }
+    }
+
+    if (savedTeachers) {
+      try {
+        setTeachers(JSON.parse(savedTeachers));
+      } catch (error) {
+        console.error('Failed to load teachers:', error);
+      }
+    }
+
+    if (savedClasses) {
+      try {
+        setClasses(JSON.parse(savedClasses));
+      } catch (error) {
+        console.error('Failed to load classes:', error);
+      }
+    }
   }, []);
 
   // Render Teacher Profile Setup if teacher-setup mode is active
@@ -394,6 +472,137 @@ function App(): React.ReactNode {
     );
   }
 
+  // Render Schedule Configuration
+  if (appMode === 'schedule') {
+    return (
+      <ScheduleConfig
+        onConfigComplete={handleScheduleConfigComplete}
+        existingConfig={scheduleConfig}
+      />
+    );
+  }
+
+  // Render Resource Management
+  if (appMode === 'resources') {
+    return (
+      <div className='min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 p-4 md:p-8'>
+        <header className='text-center mb-8'>
+          <h1 className='text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300'>
+            Resource Management
+          </h1>
+          <div className='flex justify-center gap-4 mt-4'>
+            <button
+              onClick={() => setAppMode('demo')}
+              className='px-4 py-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg shadow-md transition-colors duration-150'
+            >
+              ← Back to Main
+            </button>
+          </div>
+        </header>
+
+        <main className='max-w-6xl mx-auto'>
+          <ResourceManager
+            onResourceUpdate={handleResourceUpdate}
+            existingResources={resources}
+          />
+        </main>
+      </div>
+    );
+  }
+
+  // Render Teacher Management
+  if (appMode === 'teachers') {
+    return (
+      <div className='min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 p-4 md:p-8'>
+        <header className='text-center mb-8'>
+          <h1 className='text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300'>
+            Teacher Management
+          </h1>
+          <div className='flex justify-center gap-4 mt-4'>
+            <button
+              onClick={() => setAppMode('demo')}
+              className='px-4 py-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg shadow-md transition-colors duration-150'
+            >
+              ← Back to Main
+            </button>
+          </div>
+        </header>
+
+        <main className='max-w-6xl mx-auto'>
+          <TeacherManager
+            onTeacherUpdate={handleTeacherUpdate}
+            existingTeachers={teachers}
+          />
+        </main>
+      </div>
+    );
+  }
+
+  // Render Class Management
+  if (appMode === 'classes') {
+    return (
+      <div className='min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 p-4 md:p-8'>
+        <header className='text-center mb-8'>
+          <h1 className='text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300'>
+            Class Management
+          </h1>
+          <div className='flex justify-center gap-4 mt-4'>
+            <button
+              onClick={() => setAppMode('demo')}
+              className='px-4 py-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg shadow-md transition-colors duration-150'
+            >
+              ← Back to Main
+            </button>
+          </div>
+        </header>
+
+        <main className='max-w-6xl mx-auto'>
+          <ClassManager
+            onClassUpdate={handleClassUpdate}
+            existingClasses={classes}
+            teachers={teachers}
+            resources={resources}
+            subjects={subjects}
+          />
+        </main>
+      </div>
+    );
+  }
+
+  // Render Schedule Export/Import
+  if (appMode === 'export') {
+    return (
+      <div className='min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 p-4 md:p-8'>
+        <header className='text-center mb-8'>
+          <h1 className='text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300'>
+            Schedule Export/Import
+          </h1>
+          <div className='flex justify-center gap-4 mt-4'>
+            <button
+              onClick={() => setAppMode('demo')}
+              className='px-4 py-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg shadow-md transition-colors duration-150'
+            >
+              ← Back to Main
+            </button>
+          </div>
+        </header>
+
+        <main className='max-w-6xl mx-auto'>
+          <ScheduleExporter
+            scheduleData={{
+              classes,
+              teachers,
+              resources,
+              subjects,
+              scheduleConfig
+            }}
+            onImport={handleScheduleImport}
+          />
+        </main>
+      </div>
+    );
+  }
+
   // Render Demo Mode (Original Interface)
   return (
     <div className='min-h-screen bg-gradient-to-br from-slate-900 to-slate-700 text-slate-100 p-4 md:p-8'>
@@ -407,10 +616,24 @@ function App(): React.ReactNode {
 
         <div className='flex flex-wrap justify-center gap-4 mt-4'>
           <button
-            onClick={() => setShowFeasibility(true)}
-            className='px-4 py-2 bg-sky-500 hover:bg-sky-600 text-white rounded-lg shadow-md transition-colors duration-150'
+            onClick={() => setAppMode('schedule')}
+            className='px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-md transition-colors duration-150'
           >
-            About This Project
+            ⏰ Configure Schedule
+          </button>
+
+          <button
+            onClick={() => setAppMode('resources')}
+            className='px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg shadow-md transition-colors duration-150'
+          >
+            🏫 Manage Resources
+          </button>
+
+          <button
+            onClick={() => setAppMode('teachers')}
+            className='px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md transition-colors duration-150'
+          >
+            👨‍🏫 Manage Teachers
           </button>
 
           <button
@@ -460,6 +683,20 @@ function App(): React.ReactNode {
               🗑️ Clear All Data
             </button>
           )}
+
+          <button
+            onClick={() => setAppMode('classes')}
+            className='px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-lg shadow-md transition-colors duration-150'
+          >
+            👥 Manage Classes
+          </button>
+
+          <button
+            onClick={() => setAppMode('export')}
+            className='px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg shadow-md transition-colors duration-150'
+          >
+            📤 Export/Import Schedule
+          </button>
         </div>
       </header>
 
